@@ -1,0 +1,5 @@
+cat > requirements.txt << 'EOF'
+ultralytics
+opencv-python
+numpy
+EOF
