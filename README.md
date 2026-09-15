@@ -15,5 +15,4 @@ to guide robotic manipulation.
    - Depth-based 3D localization
    - 6D pose computation using camera intrinsics
 
-## Project Structure
- 
+
