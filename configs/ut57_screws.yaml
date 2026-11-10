@@ -1,0 +1,8 @@
+# UT57/synthetic_screws (MIT) - fetched and resized by scripts/download_data.py
+path: ../data/ut57
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: screw
+  1: nut
