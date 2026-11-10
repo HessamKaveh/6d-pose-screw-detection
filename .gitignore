@@ -1,6 +1,14 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.venv/
 venv/
 .env
+# data and training runs are reproducible via run_all.sh
+data/
+runs/
+outputs/
 *.mp4
+yolo11n.pt
+train.log
+results/pose*/per_object.csv
