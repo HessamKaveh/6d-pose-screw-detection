@@ -5,6 +5,9 @@ A model-free pipeline that **detects screws and nuts in an RGB image and lifts e
 scene-specific calibration, so it can be used for bin-picking, sorting or screwing tasks on any (piecewise) planar
 work surface seen by a stereo/ToF camera.
 
+<p align="center"><img src="results/figures/demo.gif" width="85%"><br>
+<em>Detected screws with their estimated 6D pose (x red, y green, z blue) and depth, on example RGB-D scenes.</em></p>
+
 | | |
 |---|---|
 | **Detector** | YOLO11n, trained from COCO weights on a public dataset (2 classes: `screw`, `nut`) |
