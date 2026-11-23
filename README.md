@@ -1,5 +1,7 @@
 # screwpose — general screw detection & 6D pose from RGB-D
 
+[![CI](https://github.com/HessamKaveh/6d-pose-screw-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/HessamKaveh/6d-pose-screw-detection/actions/workflows/ci.yml) ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A model-free pipeline that **detects screws and nuts in an RGB image and lifts every detection to a full 6D pose
 (position + orientation) using a registered depth map**. It does not rely on a CAD model, a fixed surface normal or a
 scene-specific calibration, so it can be used for bin-picking, sorting or screwing tasks on any (piecewise) planar
@@ -233,3 +235,7 @@ tests/                unit tests
 Code: MIT (see `LICENSE`). Training data: UT57/synthetic_screws, MIT. The detector is built on
 [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), which is AGPL-3.0, and the trained weights are subject
 to its terms.
+
+## Citation
+
+If you use this code, please cite it via [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button).

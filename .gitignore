@@ -12,3 +12,5 @@ outputs/
 yolo11n.pt
 train.log
 results/pose*/per_object.csv
+.pytest_cache/
+.ruff_cache/

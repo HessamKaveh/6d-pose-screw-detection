@@ -12,3 +12,14 @@ packages = ["screwpose"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 120
+extend-exclude = ["data", "runs", "outputs", "weights"]
+
+[tool.ruff.lint]
+select = ["E", "F"]
+# E501: long lines; E702: compact `a; b` one-liners in research code.
+ignore = ["E501", "E702"]

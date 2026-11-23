@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+type: software
+title: "screwpose — general screw detection & 6D pose from RGB-D"
+abstract: "A model-free pipeline that detects screws and nuts in RGB images and lifts every detection to a full 6D pose using a registered depth map."
+authors:
+  - family-names: Kaveh
+    given-names: Hessam
+    affiliation: "Istituto Italiano di Tecnologia (IIT)"
+repository-code: "https://github.com/HessamKaveh/6d-pose-screw-detection"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-23
