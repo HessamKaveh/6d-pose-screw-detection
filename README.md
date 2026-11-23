@@ -1,6 +1,6 @@
 # screwpose — general screw detection & 6D pose from RGB-D
 
-[![CI](https://github.com/HessamKaveh/6d-pose-screw-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/HessamKaveh/6d-pose-screw-detection/actions/workflows/ci.yml) ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/HessamKaveh/6d-pose-screw-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/HessamKaveh/6d-pose-screw-detection/actions/workflows/ci.yml) ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24465867.svg)](https://doi.org/10.5281/zenodo.24465867)
 
 A model-free pipeline that **detects screws and nuts in an RGB image and lifts every detection to a full 6D pose
 (position + orientation) using a registered depth map**. It does not rely on a CAD model, a fixed surface normal or a
@@ -239,3 +239,15 @@ to its terms.
 ## Citation
 
 If you use this code, please cite it via [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button).
+
+```bibtex
+@software{kaveh2026_screwpose,
+  author  = {Kaveh, Hessam},
+  title   = {screwpose: general screw detection and 6D pose from RGB-D},
+  year    = {2026},
+  version = {1.0.0},
+  doi     = {10.5281/zenodo.24465867},
+  url     = {https://github.com/HessamKaveh/6d-pose-screw-detection},
+  license = {MIT}
+}
+```
